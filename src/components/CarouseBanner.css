@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-banner {
+    position: relative;
+    width: 100%;
+    padding-bottom: 24px;
+}
+
+.banner-content {
+    position: relative;
+    width: 100%;
+    max-width: 360px; /* 원하는 배너 너비로 설정 */
+}
+
+.banner-image {
+    width: 100%;
+    z-index: 0; /* 배너 이미지의 z-index를 0으로 설정 */
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1; /* 화살표의 z-index를 1로 설정하여 이미지 위에 배치 */
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.left-arrow {
+    left: 5px; /* 왼쪽 화살표의 위치 */
+}
+
+.right-arrow {
+    right: 5px; /* 오른쪽 화살표의 위치 */
+}
